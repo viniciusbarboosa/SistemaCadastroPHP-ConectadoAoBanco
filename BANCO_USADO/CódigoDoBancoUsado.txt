@@ -1,0 +1,14 @@
+CREATE DATABASE sistema_cadastro_crud;
+USE sistema_cadastro_crud;
+
+CREATE TABLE pessoa(
+	id_pesssoa INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(200),
+    senha VARCHAR(200),
+    endereco VARCHAR(200),
+    telefone VARCHAR(40),
+    email VARCHAR(200),
+    data_nasc DATE
+);
+/*CRIADO NO MYSQL WORKBENCH*/
+/*LEMBRE QUE O id_pesssoa É COM 3 'S'*/
